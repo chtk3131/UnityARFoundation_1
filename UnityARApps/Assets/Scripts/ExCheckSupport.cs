@@ -32,6 +32,10 @@ namespace UnityAR{
                 isReady = true;
                 ShowMessage("ARサポート調査");
             }
+
+            if(!isReady) return;
+
+            StartCoroutine(CheckSupport());
         }
 
         IEnumerator CheckSupport() {
@@ -79,11 +83,11 @@ namespace UnityAR{
             AddMessage($"state:{ARSession.state}");
         }
 
-        void OnEnable()
-        {
-         if(!isReady) return;
+        // void OnEnable()
+        // {
+        //  if(!isReady) return;
 
-         StartCoroutine(CheckSupport());  
-        }
+        //  StartCoroutine(CheckSupport());  
+        // }
     }
 }
