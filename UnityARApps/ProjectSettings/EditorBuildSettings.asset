@@ -11,9 +11,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ScenePlaneDetection.unity
     guid: ed81009e5ca304d17aeb103968377bd5
-  - enabled: 1
+  - enabled: 0
     path: Assets/SceneScaleAndRotation.unity
     guid: 62d687b5ce7264a3eb5d19b153ef99a7
+  - enabled: 0
+    path: Assets/Scenes/SceneCheckAvailableFeatures.unity
+    guid: 2fe442287cbae48d6adccb6624bdd5e6
+  - enabled: 0
+    path: Assets/Scenes/SceneImageTracking.unity
+    guid: be077aa81b9d34dbc84fc02d0efa046a
+  - enabled: 1
+    path: Assets/Scenes/SceneLightEstimation.unity
+    guid: 791b72905a1bb4878a3c2e55f23a73ab
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e64c94aae1f4547ce919d193420b4479, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: c9fa07f05a8aa4f62a2f1b7cb62c31d8, type: 2}
